@@ -26,3 +26,27 @@ tohu.toFile('trace.json');
   - Click "Load" at top left corner
   - Select trace file stored by tohu
 
+#### Config
+Tohu supports following configuration options with `tohu.setup()` call:
+```javascript
+{
+  // Enable/disable internal logging of
+  // additional debug infor
+  quiet: true,
+  
+  // When true, tohu will store request/response pair bodies 
+  // for further analysis. Significantly increases trace file size.
+  storeBody: false,
+  
+  // Allows to specify transport for loggins, transport should suppoort 
+  // three levels as methods: debug, info, error
+  log: console,
+  
+  // Defines output format of trace file. Defaults to Chrome's about://tracing
+  format: 'chrome-tracing',
+  
+  // Filename to use for storing trace. Will be stored
+  // inside the same directory from which node.js programm was launched
+  file: 'tohu.json'
+}
+```
