@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/iamfrontender/tohu/issues"
   },
-  "homepage": "https://github.com/iamfrontender/tohu#readme"
+  "homepage": "https://github.com/iamfrontender/tohu#readme",
+  "dependencies": {
+    "r2": "^2.0.1"
+  }
 }

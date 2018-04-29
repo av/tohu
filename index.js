@@ -1,5 +1,3 @@
 'use strict';
 
-const tohu = require('./lib/tohu');
-
-module.exports = new Tohu();
+module.exports = new (require('./lib/tohu'));

@@ -1,8 +1,7 @@
-![TOHU](logo.png?raw=true "TOHU")
+![TOHU](assets/logo.png?raw=true "TOHU")
 --------
 
 Traces your http requests.
-
 
 #### Quickstart
 - Install tohu
