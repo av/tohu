@@ -1,8 +1,5 @@
 ![TOHU](assets/logo.png?raw=true "TOHU")
 --------
-
-Traces your http requests.
-
 |Code|    |Trace|
 |:----:|:----:|:----:|
 |![before](assets/code.png?raw=true "Code")|=>|![after](assets/trace.png?raw=true "Trace")|
