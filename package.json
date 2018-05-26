@@ -1,9 +1,10 @@
 {
   "name": "tohu",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Extendable tracer",
   "main": "index.js",
   "directories": {
+    "example": "examples",
     "lib": "lib"
   },
   "scripts": {
@@ -11,18 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamfrontender/tohu.git"
+    "url": "git+https://github.com/av/tohu.git"
   },
   "keywords": [
     "tracer"
   ],
-  "author": "",
+  "author": "av",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamfrontender/tohu/issues"
+    "url": "https://github.com/av/tohu/issues"
   },
-  "homepage": "https://github.com/iamfrontender/tohu#readme",
-  "dependencies": {
-    "r2": "^2.0.1"
-  }
+  "homepage": "https://github.com/av/tohu#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
